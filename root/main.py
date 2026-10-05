@@ -6,7 +6,9 @@ RESET = "\033[0m"
 
 def main():
     """
-    This runs the story and stuff
+    This runs the text based adventure
+    This follows 10 rooms
+    and has massive amounts of code
     :return: None
     """
     has_key = 0
