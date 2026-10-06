@@ -30,6 +30,7 @@ def main():
                 print("A : Use the magnet in your pocket to pull the key through the bars")
                 print("B : Try to reach the key with your hands")
 
+
                 choice = input("  ").strip().lower()
 
                 if choice == "b":
@@ -47,11 +48,13 @@ def main():
                 print("\nLocation: Dungeon Cell")
                 print("Your cell door is unlocked\n")
                 print("A : Step out into the hallway")
-
+                print("B : Go back")
                 choice = input("  ").strip().lower()
 
                 if choice == "a":
                     place = "corridor"
+                elif choice == "b":
+                        print(f"\n{GREEN}You go back into your cell looking around, but dont see anything, so you step outRESET}")
                 else:
                     print(f"\n{RED} type one of the options ;-;{RESET}")
 
