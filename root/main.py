@@ -54,7 +54,7 @@ def main():
                 if choice == "a":
                     place = "corridor"
                 elif choice == "b":
-                        print(f"\n{GREEN}You go back into your cell looking around, but dont see anything, so you step outRESET}")
+                        print(f"\n{GREEN}You go back into your cell looking around, but dont see anything, so you step out{RESET}")
                 else:
                     print(f"\n{RED} type one of the options ;-;{RESET}")
 
